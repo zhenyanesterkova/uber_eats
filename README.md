@@ -1,1 +1,1 @@
-# uber_eats
+# Учебный проект uber_eats
