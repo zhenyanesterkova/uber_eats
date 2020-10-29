@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stores</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <a href="#" class="logo"
+          ><img src="imgs/logo.svg" alt="logo" class="logo-img"
+        /></a>
+        <div class="nav">
+          <a href="#" class="sign-in">Войти</a>
+          <div class="basket">
+            <a href="#" class="basket"
+              ><img src="imgs/basket.svg" alt="basket" class="basket-img"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="header-pusto"></div>
+      <div class="search">
+        <input
+          class="search-input"
+          type="text"
+          placeholder="Поиск по ресторанам и кухням"
+        />
+      </div>
+      <h3 class="cards-h3">Рестораны в Москве</h3>
+      <div class="row cards">
+        <div class="col-lg-4 col-md-6 col-xs-12 card">
+          <img src="imgs/mac-duck.jpg" alt="MacDonalds" class="cards-img" />
+          <h4 class="cards-restorant-name">Макдоналдс — Газетный</h4>
+          <p class="cards-description-eats">₽₽ • Бургеры</p>
+          <p class="cards-time-delivery">25 - 35 мин</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 card">
+          <img src="imgs/dimsum.jpg" alt="DimSim" class="cards-img" />
+          <h4 class="cards-restorant-name">DimSum & Co — ЦДМ</h4>
+          <p class="cards-description-eats">
+            ₽ • Японская • Китайская • Азиатская
+          </p>
+          <p class="cards-time-delivery">40 - 50 мин</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 card">
+          <img src="imgs/dvizhok.jpg" alt="Dvizhok" class="cards-img" />
+          <h4 class="cards-restorant-name">ДвижОК — Манежная</h4>
+          <p class="cards-description-eats">₽ • Американская • Европейская</p>
+          <p class="cards-time-delivery">35 - 45 мин</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 card">
+          <img src="imgs/nyaNHA.jpg" alt="Nyasha" class="cards-img" />
+          <h4 class="cards-restorant-name">НЯ — NHA</h4>
+          <p class="cards-description-eats">₽₽ • Вьетнамская</p>
+          <p class="cards-time-delivery">30 - 40 мин</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 card">
+          <img src="imgs/tochkazy.jpg" alt="TochkaZyu" class="cards-img" />
+          <h4 class="cards-restorant-name">Точка Дзы — Цветной</h4>
+          <p class="cards-description-eats">₽₽ • Вьетнамская</p>
+          <p class="cards-time-delivery">40 - 50 мин</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 card">
+          <img src="imgs/cinnabon.jpg" alt="Cinnabon" class="cards-img" />
+          <h4 class="cards-restorant-name">Cinnabon</h4>
+          <p class="cards-description-eats">₽ • Выпечка • Десерты • Капкейки</p>
+          <p class="cards-time-delivery">25 - 35 мин</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 card">
+          <img src="imgs/pizzelove.jpg" alt="PizzeLove" class="cards-img" />
+          <h4 class="cards-restorant-name">PIZZELOVE</h4>
+          <p class="cards-description-eats">₽₽ • Пицца</p>
+          <p class="cards-time-delivery">15 - 25 мин</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 card">
+          <img src="imgs/zyucafe.jpg" alt="ZyuCafe" class="cards-img" />
+          <h4 class="cards-restorant-name">Zю кафе — Тверская</h4>
+          <p class="cards-description-eats">₽₽ • Японская</p>
+          <p class="cards-time-delivery">25 - 35 мин</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 card">
+          <img src="imgs/barbqcafe.jpg" alt="BarBQcafe" class="cards-img" />
+          <h4 class="cards-restorant-name">Bar BQ Cafe — Манежная</h4>
+          <p class="cards-description-eats">₽₽₽ • Европейская</p>
+          <p class="cards-time-delivery">30 - 40 мин</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="top-footer">
+        <a href="#" class="white-logo"
+          ><img
+            src="imgs/white-logo.svg"
+            alt="white-logo"
+            class="white-logo-img"
+        /></a>
+      </div>
+
+      <div class="row footer-references">
+        <div class="col-lg-4 col-md-4 col-xs-8 lang-social">
+          <div class="lang">
+            <div class="ru">
+              <img src="imgs/world.svg" alt="lang-icon" class="lang-icon" />
+              <span class="lang-name">Русский</span>
+              <img
+                src="imgs/arrow-90.svg"
+                alt="arrow-bottom"
+                class="arrow-bottom"
+              />
+            </div>
+          </div>
+          <div class="social"></div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-8 footer-links-block1"></div>
+        <div class="col-lg-4 col-md-4 col-xs-8 footer-links-block2"></div>
+      </div>
+      <div class="mobile-app"></div>
+      <div class="privacy"></div>
+    </div>
+  </body>
+</html>
